@@ -8,8 +8,8 @@ wb = openpyxl.load_workbook(file)
 sheet1 = wb[input('write name of the list  ')]
 count=0
 d=int(input('write number of the first line '))
-A='D'+str(d)
-B='D'+input('write number of the last line ')
+A='B'+str(d)
+B='B'+input('write number of the last line ')
 r= 14900 #tranlate range
 print('program start translating', datetime.now())
 for i in sheet1[A:B]:
